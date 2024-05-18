@@ -1,0 +1,115 @@
+/* style.css */
+body {
+  margin: 0;
+}
+
+.fullscreen-container {
+  background-image: url('https://picsum.photos/2500/1500?image=1041');
+  min-height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: hsla(201, 100%, 50%, 0.6);
+  padding: 50px 30px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.form-title {
+  color: white;
+  text-align: center;
+  margin: 0 0 40px;
+  font-size: 2.5em; 
+  font-weight: normal;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  color: white;
+  font-weight: lighter;
+  font-size: 1.2em;
+  margin-bottom: 7px;
+}
+
+.input-group input {
+  background: none;
+  border: none; 
+  outline: none;
+  background-color: hsla(201, 30%, 95%, 0.4);
+  font-size: 1.5em;
+  padding: 10px;
+  border: 1px solid hsl(201, 6%, 20%);
+  border-radius: 5px;
+  color: white; 
+  font-weight: lighter;
+}
+
+.submit-button {
+  background: none;
+  border: none;
+  outline: none;  
+  background-color: hsla(201, 100%, 50%, 0.1);
+  padding: 10px 30px; 
+  border-radius: 5px; 
+  border: 1px solid hsl(201, 6%, 20%);
+  color: white;
+  font-size: 1.5em;
+  font-weight: lighter;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.submit-button:hover, 
+.submit-button:focus {
+  background-color: hsla(201, 50%, 50%, 0.3);
+  border-color: hsl(201, 50%, 50%);
+}
+
+}
+
+/*body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}*/
+
+#report {
+    margin-top: 50px;
+  }
