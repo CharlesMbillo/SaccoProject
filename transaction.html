@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Sacco Transaction System</title> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> 
+ </head> 
+ <body> 
+  <div class="fullscreen-container"> <!-- Our form container will go here ---> 
+   <div class="form-container"> 
+    <h1 class="form-title">Sacco Transaction System</h1> <!-- our Form structure --> 
+    <form id="transaction-form"> 
+     <div class="form-group"> <label for="member-id">Sacco Member's ID:</label> 
+      <input type="text" id="member-id" class="form-control"> 
+     </div> 
+     <div class="form-group"> <label for="transaction-type">Transaction Type:</label> <select id="transaction-type" class="form-control"> <option value="deposit">Deposit</option> <option value="savings">Savings</option> <option value="withdrawal">Withdrawal</option> </select> 
+     </div> 
+     <div class="form-group"> <label for="face-amount">Face Amount:</label> 
+      <input type="number" id="face-amount" class="form-control"> 
+     </div> 
+     <div class="form-group"> <label for="transaction-date">Transaction Date:</label> 
+      <input type="date" id="transaction-date" class="form-control"> 
+     </div> <button type="submit" class="btn btn-primary">Submit</button> 
+    </form> 
+    <div id="report-container"> <!-- Report will be displayed here --> 
+     <div id="report-container"> 
+      <h2>Transaction Report</h2> 
+      <p>Transaction ID: 123456</p> 
+      <p>Member ID: 12345</p> 
+      <p>Transaction Type: Deposit</p> 
+      <p>Face Amount: $500.00</p> 
+      <p>Transaction Date: 2023-03-14</p> 
+     </div> 
+    </div> 
+   </div> 
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+  </div> 
+ </body>
+</html>
